@@ -1,0 +1,35 @@
+extends ./layout/index
+
+block slider
+    .slider 
+        h1 Rio de Janeiro 
+        em aventura
+
+block contenido
+    main.container.mt-5 
+
+        h2.text-center.mb-5 Sobre Nosotros
+
+        .row.mb-5 
+            .col-md-6 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat luctus augue sit amet volutpat. Nunc nunc ipsum, suscipit fringilla egestas in, vestibulum aliquam augue. Quisque non lorem eget urna ultrices pharetra et id enim. Duis maximus rhoncus sem, vel interdum nibh congue vitae. Suspendisse tincidunt semper gravida. Sed eu aliquam sapien. Nullam in 
+
+                p Nunc sed leo vehicula, hendrerit lorem ac, lobortis dolor. Suspendisse ultricies facilisis magna, at pharetra mauris euismod vel. 
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="nosotros",class="img-fluid")
+
+        include ./layout/bloque_viajes
+    
+    .descuento
+        .container 
+            .row 
+                .col-md-6 
+                   .contenido
+                        h3 %5 en Descuento 
+                        p.titulo Escoge tu Destino 
+                        p.fecha Oct 2024 / Dic 2024
+                        p.precio $2500
+
+    .container
+        h2.mt-5.text-center Testimonios
+        include ./layout/bloque_testimonios

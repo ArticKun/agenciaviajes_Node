@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="us",class="img-fluid")
+            .col-md-7
+                h1  #{pagina}
+                blockquote  ipsum dolor sit amet, consectetur adipiscing elit. Proin ante turpis, commodo vel nisi a, placerat dapibus tellus. Fusce sit amet fermentum lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eu tincidunt odio. Ut ornare posuere purus, condimentum egestas odio faucibus non.
+
+                p semper diam vitae nibh tempus, ut egestas magna dignissim. Sed faucibus libero vel mi lacinia commodo. Duis nec semper elit, fringilla sodales odio. Nulla laoreet dui massa, et sagittis turpis ultricies id. Vivamus maximus erat eu ipsum maximus facilisis. Nam facilisis nunc et neque bibendum, quis fermentum metus auctor. 
+
+                p leo eros, varius quis quam sed, hendrerit facilisis turpis. Integer ac semper odio. Vestibulum condimentum lectus dolor, vitae lobortis metus porta pretium. Ut cursus orci non risus auctor, quis condimentum sem dictum. Sed venenatis consequat porttitor. Maecenas sollicitudin et velit vel aliquet. Pellentesque vitae felis ultricies, fringilla ipsum eu, luctus ex. Etiam volutpat efficitur sapien vitae ornare. 
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="safe",class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p fringilla ipsum eu, luctus ex. Etiam volutpat efficitur sapien vitae ornare.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="travel",class="img-fluid mb-4")
+                    h2.mb-4 Destinos 
+                    p fringilla ipsum eu, luctus ex. Etiam volutpat efficitur sapien vitae ornare.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="prices",class="img-fluid mb-4")
+                    h2.mb-4 Precios 
+                    p fringilla ipsum eu, luctus ex. Etiam volutpat efficitur sapien vitae ornare.
+    
